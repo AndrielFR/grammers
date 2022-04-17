@@ -1,0 +1,20 @@
+[package]
+name = "grammers-plugins"
+version = "0.3.0"
+authors = ["AndrielFR <andrielkogama2@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = """
+A plugin system to grammers-client.
+"""
+homepage = "https://github.com/Lonami/grammers"
+documentation = "https://docs.rs/grammers-plugins"
+repository = "https://github.com/Lonami/grammers"
+keywords = ["telegram", "plugins"]
+categories = ["accessibility"]
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.4.0"
+
+[dev-dependencies]
+toml = "0.5.8"

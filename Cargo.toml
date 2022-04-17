@@ -5,8 +5,10 @@ members = [
     "lib/grammers",
     "lib/grammers-client",
     "lib/grammers-crypto",
+    "lib/grammers-macros",
     "lib/grammers-mtproto",
     "lib/grammers-mtsender",
+    "lib/grammers-plugins",
     "lib/grammers-session",
     "lib/grammers-tl-gen",
     "lib/grammers-tl-parser",
@@ -16,8 +18,10 @@ members = [
 [patch.crates-io]
 grammers-client = { path = "lib/grammers-client" }
 grammers-crypto = { path = "lib/grammers-crypto" }
+grammers-macros = { path = "lib/grammers-macros" }
 grammers-mtproto = { path = "lib/grammers-mtproto" }
 grammers-mtsender = { path = "lib/grammers-mtsender" }
+grammers-plugins = { path = "lib/grammers-plugins" }
 grammers-session = { path = "lib/grammers-session" }
 grammers-tl-gen = { path = "lib/grammers-tl-gen" }
 grammers-tl-parser = { path = "lib/grammers-tl-parser" }

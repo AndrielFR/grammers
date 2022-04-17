@@ -1,0 +1,27 @@
+[package]
+name = "grammers-macros"
+version = "0.3.0"
+authors = ["AndrielFR <andrielkogama2@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = """
+Rust procedural macros to grammers-plugins.
+"""
+homepage = "https://github.com/Lonami/grammers"
+documentation = "https://docs.rs/grammers-macros"
+repository = "https://github.com/Lonami/grammers"
+keywords = ["telegram", "macros"]
+categories = ["accessibility"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+grammers-client = { path = "../grammers-client", version = "0.3.0" }
+grammers-plugins = { path = "../grammers-plugins", version = "0.3.0" }
+quote = "^1.0"
+proc-macro2 = "^1.0"
+syn = { version = "^1.0",  features = ["full", "parsing"] }
+
+[dev-dependencies]
+toml = "0.5.8"

@@ -17,8 +17,10 @@ The following libraries under [`lib/`] can be used to work with Telegram in some
 
 * **[grammers-client]**: high-level API.
 * **[grammers-crypto]**: cryptography-related methods.
+* **[grammers-macros]**: procedural macros for plugins.
 * **[grammers-mtproto]**: implementation of the [Mobile Transport Protocol].
 * **[grammers-mtsender]**: network connection to Telegram.
+* **[grammers-plugins]**: plugin system for the client.
 * **[grammers-session]**: session storages for the client.
 * **[grammers-tl-gen]**: Rust code generator from TL definitions.
 * **[grammers-tl-parser]**: a [Type Language] parser.
@@ -80,8 +82,10 @@ dual licensed as above, without any additional terms or conditions.
 [`lib/`]: lib/
 [grammers-client]: lib/grammers-client/
 [grammers-crypto]: lib/grammers-crypto/
+[grammers-macros]: lib/grammers-macros/
 [grammers-mtproto]: lib/grammers-mtproto/
 [grammers-mtsender]: lib/grammers-mtsender/
+[grammers-plugins]: lib/grammers-plugins/
 [grammers-session]: lib/grammers-session/
 [grammers-tl-gen]: lib/grammers-tl-gen/
 [grammers-tl-parser]: lib/grammers-tl-parser/
